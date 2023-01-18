@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8BCA706A29789C02000A361E /* FitnessApp_NeoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA706929789C02000A361E /* FitnessApp_NeoApp.swift */; };
-		8BCA706C29789C02000A361E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA706B29789C02000A361E /* ContentView.swift */; };
+		8BCA706C29789C02000A361E /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA706B29789C02000A361E /* DialView.swift */; };
 		8BCA706E29789C03000A361E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA706D29789C03000A361E /* Assets.xcassets */; };
 		8BCA707129789C03000A361E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA707029789C03000A361E /* Preview Assets.xcassets */; };
+		8BCA70792978A180000A361E /* DialHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA70782978A180000A361E /* DialHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BCA706629789C02000A361E /* FitnessApp-Neo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitnessApp-Neo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BCA706929789C02000A361E /* FitnessApp_NeoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp_NeoApp.swift; sourceTree = "<group>"; };
-		8BCA706B29789C02000A361E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BCA706B29789C02000A361E /* DialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
 		8BCA706D29789C03000A361E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCA707029789C03000A361E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BCA70782978A180000A361E /* DialHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		8BCA706829789C02000A361E /* FitnessApp-Neo */ = {
 			isa = PBXGroup;
 			children = (
+				8BCA707729789C8A000A361E /* Dial */,
 				8BCA706929789C02000A361E /* FitnessApp_NeoApp.swift */,
-				8BCA706B29789C02000A361E /* ContentView.swift */,
 				8BCA706D29789C03000A361E /* Assets.xcassets */,
 				8BCA706F29789C03000A361E /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				8BCA707029789C03000A361E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BCA707729789C8A000A361E /* Dial */ = {
+			isa = PBXGroup;
+			children = (
+				8BCA706B29789C02000A361E /* DialView.swift */,
+				8BCA70782978A180000A361E /* DialHeaderView.swift */,
+			);
+			path = Dial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BCA706C29789C02000A361E /* ContentView.swift in Sources */,
+				8BCA70792978A180000A361E /* DialHeaderView.swift in Sources */,
+				8BCA706C29789C02000A361E /* DialView.swift in Sources */,
 				8BCA706A29789C02000A361E /* FitnessApp_NeoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

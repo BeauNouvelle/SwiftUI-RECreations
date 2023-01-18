@@ -11,7 +11,7 @@ import SwiftUI
 struct FitnessApp_NeoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DialView()
         }
     }
 }
