@@ -15,79 +15,42 @@ struct DialView: View {
 
             Dial(goal: 10_000, steps: 7_540)
                 .padding()
-            Spacer()
+
+            HStack(spacing: 30) {
+                StatTile(image: "globe", value: "4.75", measurement: "Km")
+                StatTile(image: "globe", value: "4.75", measurement: "Km")
+                StatTile(image: "globe", value: "4.75", measurement: "Km")
+            }
         }
         .padding()
         .background(Color.backgroundGray)
     }
 }
 
+struct StatTile: View {
 
-struct Dial: View {
-
-    let goal: Int
-    let steps: Int
+    let image: String
+    let value: String
+    let measurement: String
 
     var body: some View {
-        ZStack {
-
-            SpokesView()
-            CircleView()
-
-            ZStack {
-                CircleView()
-
-                Circle().stroke(style: StrokeStyle(lineWidth: 12))
-                    .padding(20)
-                    .foregroundColor(.foregroundGray)
-                Circle().stroke(style: StrokeStyle(lineWidth: 12))
-                    .padding(20)
-
-                VStack {
-                    Text("Goal: \(goal)")
-                    Text("\(steps)")
-                        .font(.title)
-                        .bold()
-                        .padding()
-                    Text("Steps")
-                }
-            }
-            .padding()
-
-
+        VStack {
+            Image(systemName: image)
+            Text(value)
+                .font(.title)
+            Text(measurement)
         }
         .foregroundColor(.accentColor)
+        .padding()
+        .background(
+            RoundedRectangle(cornerRadius: 15).fill(Color.backgroundGray)
+                .shadow(color: .foregroundGray, radius: 3, x: 8, y: 8)
+                .shadow(color: .white, radius: 3, x: -8, y: -8)
+        )
     }
 
 }
 
-struct SpokesView: View {
-
-    var body: some View {
-        ForEach(0..<360, id: \.self) { index in
-            if (Double(index).truncatingRemainder(dividingBy: 2.25) == 0) {
-
-                Rectangle()
-                    .frame(width: 1)
-                    .rotationEffect(.degrees(Double(index)))
-            }
-        }
-    }
-}
-
-struct CircleView: View {
-
-    private let shadowOffset: CGFloat = 8
-    private let shadowRadius: CGFloat = 9
-    private let shadowColor: Color = Color(red: 0.871, green: 0.871, blue: 0.871)
-    private let highlightColor: Color = .white
-
-    var body: some View {
-        Circle().fill(Color.backgroundGray)
-            .shadow(color: shadowColor, radius: shadowRadius, x: shadowOffset, y: shadowOffset)
-            .shadow(color: highlightColor, radius: shadowRadius, x: -shadowOffset, y: -shadowOffset)
-    }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

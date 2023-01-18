@@ -12,6 +12,9 @@
 		8BCA706E29789C03000A361E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA706D29789C03000A361E /* Assets.xcassets */; };
 		8BCA707129789C03000A361E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA707029789C03000A361E /* Preview Assets.xcassets */; };
 		8BCA70792978A180000A361E /* DialHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA70782978A180000A361E /* DialHeaderView.swift */; };
+		8BCA707B2978AB2B000A361E /* SpokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA707A2978AB2B000A361E /* SpokesView.swift */; };
+		8BCA707D2978AB3E000A361E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA707C2978AB3E000A361E /* CircleView.swift */; };
+		8BCA707F2978AF60000A361E /* Dial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA707E2978AF60000A361E /* Dial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		8BCA706D29789C03000A361E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCA707029789C03000A361E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BCA70782978A180000A361E /* DialHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialHeaderView.swift; sourceTree = "<group>"; };
+		8BCA707A2978AB2B000A361E /* SpokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokesView.swift; sourceTree = "<group>"; };
+		8BCA707C2978AB3E000A361E /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8BCA707E2978AF60000A361E /* Dial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			children = (
 				8BCA706B29789C02000A361E /* DialView.swift */,
 				8BCA70782978A180000A361E /* DialHeaderView.swift */,
+				8BCA707A2978AB2B000A361E /* SpokesView.swift */,
+				8BCA707C2978AB3E000A361E /* CircleView.swift */,
+				8BCA707E2978AF60000A361E /* Dial.swift */,
 			);
 			path = Dial;
 			sourceTree = "<group>";
@@ -149,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BCA70792978A180000A361E /* DialHeaderView.swift in Sources */,
+				8BCA707F2978AF60000A361E /* Dial.swift in Sources */,
+				8BCA707D2978AB3E000A361E /* CircleView.swift in Sources */,
 				8BCA706C29789C02000A361E /* DialView.swift in Sources */,
 				8BCA706A29789C02000A361E /* FitnessApp_NeoApp.swift in Sources */,
+				8BCA707B2978AB2B000A361E /* SpokesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
