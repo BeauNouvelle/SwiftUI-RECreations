@@ -13,7 +13,7 @@ Jan 19th 2023
 [Dribbble Design by Mayam](https://dribbble.com/shots/15978028-Banking-Dashboard-Mobile-View)
 | [Designer Profile](https://dribbble.com/arcimaryam)
 
-<img src="screenshots/neomorphic-dial.png" alt="screenshot" style="width: 40%;" />
+<img src="screenshots/neomorphic-fitness-app.png" alt="screenshot" style="width: 40%;" />
 
 #### Budget App
 
