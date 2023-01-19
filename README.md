@@ -9,7 +9,7 @@ It may take some time before the links to the videos are updated here (esp if yo
 I generally commit the code as I go on stream, so you can jump in here while it's all happened and take a look for yourself.
 I hope you find some of this content useful and can use it in your own apps!
 
-Jan 19th 2023
+### Jan 19th 2023
 
 ------
 #### Fitness App with a neomorphic design
