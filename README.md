@@ -1,7 +1,16 @@
 # SwiftUI-RECreations
 
+Here you can find the source code from my live streams.
+
+I stream most days on both Twitch and YouTube, but the videos are archived on YouTube.
+It may take some time before the links to the videos are updated here (esp if you're viewing this on the day)
+
+I generally commit the code as I go on stream, so you can jump in here while it's all happened and take a look for yourself.
+I hope you find some of this content useful and can use it in your own apps!
+
 Jan 19th 2023
----
+
+------
 #### Fitness App with a neomorphic design
 
 - Use of shadows for shading and highlights.
@@ -17,7 +26,7 @@ Jan 19th 2023
 
 #### Budget App
 
-- Custom Segmented Control with sliding underline animation
+- Custom Segmented Control with sliding underline animation (matchedGeometryEffect)
 - Uses SwiftUI Charts
 
 [Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/BudgetApp)
