@@ -9,6 +9,12 @@ It may take some time before the links to the videos are updated here (esp if yo
 I generally commit the code as I go on stream, so you can jump in here while it's all happened and take a look for yourself.
 I hope you find some of this content useful and can use it in your own apps!
 
+##### Please don't open pull requests with changes to the code!
+At least not yet. The purpose is to keep this code AS IS so it matches what you see in the video uploads.
+
+If there's a HUGE mistake and it hurts you to look at it, and it MUST be fixed.... create a PR but make sure the project with your fixes are in a copied folder of the original project with a suffix of "-fixed", and update the readme to ALSO link to this fixed folder.
+All further PRs should be made on that same "-fixed" folder.
+
 ### Jan 19th 2023
 
 ------
