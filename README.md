@@ -26,7 +26,7 @@ All further PRs should be made on that same "-fixed" folder.
 
 [Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/FitnessApp-Neo)
 
-[Dribbble Design by Mayam](https://dribbble.com/shots/15978028-Banking-Dashboard-Mobile-View)
+[Dribbble Design by Mayam](https://dribbble.com/shots/15083711-Fitness-App)
 | [Designer Profile](https://dribbble.com/arcimaryam)
 
 <img src="screenshots/neomorphic-fitness-app.png" alt="screenshot" style="width: 40%;" />
