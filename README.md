@@ -17,8 +17,6 @@ All further PRs should be made on that same "-fixed" folder.
 
 ## Jan 20th 2023
 
-------
-
 ### Weather App
 
 - Use of shapes and created a reusable sunrise/sunset visual
@@ -29,6 +27,7 @@ All further PRs should be made on that same "-fixed" folder.
 
 <img src="screenshots/weather.png" alt="screenshot" style="width: 40%;" />
 
+------
 
 #### Cafe Finder - MapKit
 
@@ -42,7 +41,6 @@ All further PRs should be made on that same "-fixed" folder.
 
 ## Jan 19th 2023
 
-------
 ### Fitness App with a neomorphic design [Video Link](https://www.youtube.com/watch?v=jusLeeb9pgY)
 
 - Use of shadows for shading and highlights.
@@ -55,6 +53,8 @@ All further PRs should be made on that same "-fixed" folder.
 | [Designer Profile](https://dribbble.com/arcimaryam)
 
 <img src="screenshots/neomorphic-fitness-app.png" alt="screenshot" style="width: 40%;" />
+
+------
 
 ### Budget App [Video Link](https://www.youtube.com/watch?v=zk0gwmfgC4I)
 
