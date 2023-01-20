@@ -43,7 +43,7 @@ All further PRs should be made on that same "-fixed" folder.
 ### Jan 19th 2023
 
 ------
-#### Fitness App with a neomorphic design
+#### Fitness App with a neomorphic design [Video Link](https://www.youtube.com/watch?v=jusLeeb9pgY)
 
 - Use of shadows for shading and highlights.
 - Use of SwiftUI shapes for progress view.
