@@ -29,6 +29,17 @@ All further PRs should be made on that same "-fixed" folder.
 
 <img src="screenshots/weather.png" alt="screenshot" style="width: 40%;" />
 
+
+#### Cafe Finder - MapKit
+
+- Annotations
+- Location Search
+- Scroll to: on scrollview
+
+[Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/CafeFinder)
+
+<img src="screenshots/mapkit.png" alt="screenshot" style="width: 40%;" />
+
 ### Jan 19th 2023
 
 ------
