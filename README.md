@@ -15,6 +15,20 @@ At least not yet. The purpose is to keep this code AS IS so it matches what you 
 If there's a HUGE mistake and it hurts you to look at it, and it MUST be fixed.... create a PR but make sure the project with your fixes are in a copied folder of the original project with a suffix of "-fixed", and update the readme to ALSO link to this fixed folder.
 All further PRs should be made on that same "-fixed" folder.
 
+### Jan 20th 2023
+
+------
+
+#### Weather App
+
+- Use of shapes and created a reusable sunrise/sunset visual
+
+[Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/WeatherApp)
+
+[Dribbble Design by Mayam](https://dribbble.com/shots/14901198-weather-app) | [Designer Profile](https://dribbble.com/arcimaryam)
+
+<img src="screenshots/weather.png" alt="screenshot" style="width: 40%;" />
+
 ### Jan 19th 2023
 
 ------
