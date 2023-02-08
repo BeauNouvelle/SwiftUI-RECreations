@@ -15,11 +15,9 @@ At least not yet. The purpose is to keep this code AS IS so it matches what you 
 If there's a HUGE mistake and it hurts you to look at it, and it MUST be fixed.... create a PR but make sure the project with your fixes are in a copied folder of the original project with a suffix of "-fixed", and update the readme to ALSO link to this fixed folder.
 All further PRs should be made on that same "-fixed" folder.
 
-### Jan 20th 2023
+## Jan 20th 2023
 
-------
-
-#### Weather App
+### Weather App
 
 - Use of shapes and created a reusable sunrise/sunset visual
 
@@ -29,6 +27,7 @@ All further PRs should be made on that same "-fixed" folder.
 
 <img src="screenshots/weather.png" alt="screenshot" style="width: 40%;" />
 
+------
 
 #### Cafe Finder - MapKit
 
@@ -40,10 +39,9 @@ All further PRs should be made on that same "-fixed" folder.
 
 <img src="screenshots/mapkit.png" alt="screenshot" style="width: 40%;" />
 
-### Jan 19th 2023
+## Jan 19th 2023
 
-------
-#### Fitness App with a neomorphic design
+### Fitness App with a neomorphic design [Video Link](https://www.youtube.com/watch?v=jusLeeb9pgY)
 
 - Use of shadows for shading and highlights.
 - Use of SwiftUI shapes for progress view.
@@ -56,7 +54,9 @@ All further PRs should be made on that same "-fixed" folder.
 
 <img src="screenshots/neomorphic-fitness-app.png" alt="screenshot" style="width: 40%;" />
 
-#### Budget App
+------
+
+### Budget App [Video Link](https://www.youtube.com/watch?v=zk0gwmfgC4I)
 
 - Custom Segmented Control with sliding underline animation (matchedGeometryEffect)
 - Uses SwiftUI Charts
