@@ -1,7 +1,7 @@
 # SwiftUI-RECreations
 
 Here you can find the source code from my live streams.
-[YouTube](https://youtube.com/c/getswifty) | [Twitch](https://www.twitch.tv/basedbitstream)
+[YouTube](https://youtube.com/c/getswifty)
 
 I stream most days on both Twitch and YouTube, but the videos are archived on YouTube.
 It may take some time before the links to the videos are updated here (esp if you're viewing this on the day)
