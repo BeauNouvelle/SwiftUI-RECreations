@@ -18,8 +18,15 @@ All further PRs should be made on that same "-fixed" folder.
 ## Feb 20th 2023
 ### MovieLookup
 
+- Show trending movies
+- Search movie DB
+- Has API calls!
+
 [Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/MovieLookup)
 [Dribbble Design by Anna Galperina](https://dribbble.com/shots/20697408-Movie-app) | [Designer Profile](https://dribbble.com/yaannuta)
+
+<img src="screenshots/trending_moviedb.png" alt="screenshot" style="width: 40%;" />
+<img src="screenshots/search_movies.png" alt="screenshot" style="width: 40%;" />
 
 ## Feb 9th 2023
 ### Coworking Venue Finder
