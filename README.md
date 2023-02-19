@@ -35,6 +35,8 @@ All further PRs should be made on that same "-fixed" folder.
 
 [Dribbble Design by Nurlia Tegar Apriani](https://dribbble.com/shots/14751366-Co-Working-Space-Design-Concept/attachments/6454549?mode=media) | [Designer Profile](https://dribbble.com/aprinne)
 
+<img src="screenshots/coworking.png" alt="screenshot" style="width: 40%;" />
+
 ## Jan 20th 2023
 
 ### Weather App
