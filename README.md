@@ -20,7 +20,7 @@ All further PRs should be made on that same "-fixed" folder.
 
 - Show trending movies
 - Search movie DB
-- Has API calls!
+- Has API calls! https://developers.themoviedb.org
 
 [Sourcecode](https://github.com/BeauNouvelle/SwiftUI-RECreations/tree/main/MovieLookup)
 [Dribbble Design by Anna Galperina](https://dribbble.com/shots/20697408-Movie-app) | [Designer Profile](https://dribbble.com/yaannuta)
