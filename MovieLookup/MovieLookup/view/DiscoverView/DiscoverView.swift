@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DiscoverView.swift
 //  MovieLookup
 //
 //  Created by Beau Nouvelle on 20/2/2023.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DiscoverView: View {
 
-    @StateObject var viewModel = MovieDBViewModel()
+    @StateObject var viewModel = MovieDiscoverViewModel()
     @State var searchText = ""
 
     var body: some View {
@@ -31,7 +31,11 @@ struct ContentView: View {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(viewModel.trending) { trendingItem in
-                                    TrendingCard(trendingItem: trendingItem)
+                                    NavigationLink {
+                                        MovieDetailView(movie: trendingItem)
+                                    } label: {
+                                        TrendingCard(trendingItem: trendingItem)
+                                    }
                                 }
                             }
                             .padding(.horizontal)
@@ -92,6 +96,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DiscoverView()
     }
 }
